@@ -1,0 +1,41 @@
+# Toda vez que for inicar o projeto
+
+Ativar virtual env:
+    - Entrar na pasta do projeto -> cd venv -> cd Scripts -> depois dentro da pasta Scripts digitar activate
+    - Voltar para a pasta do projeto cd .. -> cd .. -> Pasta do projeto
+
+
+# Criar um projeto django novo:
+    
+django-admin startporject NomeDoProjeto
+
+# Rodar o projeto:
+
+Para iniciar o projeto online localmente:
+    - python manage.py runserver
+
+Para parar o servidor:
+    - Ctrl + c 
+
+# Comando para as tabelas do banco de dados sejam criadas dentro do banco de dados, precisa está dentro da pasta com o nome do projeto
+
+python manage.py migrate
+
+# Criar um super usuario, precisa está dentro da pasta com o nome do projeto: Voce pode criar quantos desejar
+
+python manage.py createsuperuser
+
+# Acessando a área admin: http://127.0.0.1:8000/admin -> Entrar com usuario e senha criado
+
+-------------------------------------------------------------------------------------------------------------------------------------- 
+
+OBS: O django é composto por app
+
+# Logo é importante criar um app, para isso você dá o seguinte comando: python manage.py startapp nomeDoApp
+
+# Toda vez que criar um modelo, tem que criar uma migração e depois aplicar a migração para o banco de dados
+# python manage.py makemigrations 
+# python manage.py migrate
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Aplicando o código ao GitHub: Vamos colocar o projeto no GitHub, vamos versionar o projeto. 

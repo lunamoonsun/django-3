@@ -1,0 +1,9 @@
+Ciclo de request e response:
+    - Um cliente faz a request
+    - Um servidor responde a request
+
+    Toda request é construida em:
+        - header
+        - preview
+        - response
+        - timing
