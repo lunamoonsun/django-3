@@ -43,7 +43,7 @@ ROOT_URLCONF = 'blog.urls'
 TEMPLATES = [ # Templates que são os arquivos html, css e js do projeto que o django acessa
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates_geral'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
